@@ -1,0 +1,2 @@
+import ee
+ee.Authenticate()
