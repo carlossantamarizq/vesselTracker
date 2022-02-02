@@ -1,2 +1,0 @@
-import ee
-ee.Authenticate()

@@ -2,3 +2,5 @@ data
 earthengine
 __pycache__
 vesselTracker-env
+Images/
+Locations/
