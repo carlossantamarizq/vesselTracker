@@ -12,3 +12,4 @@ Dataset.Ink
 yolov5/
 yolov5x.pt
 runs/
+mooc_example.ipynb
