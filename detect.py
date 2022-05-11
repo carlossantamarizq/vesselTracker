@@ -4,11 +4,17 @@ import numpy as np
 from PIL import Image
 from itertools import product
 import shutil
+import time
 
 import sys
 print(sys.version)
 
 def detect_vessels(filename, dir_in, dir_out, model): 
+
+    #If dir_out doesnt exist, it is created
+    if os.path.exists(dir_out) is False:
+        os.mkdir(dir_out)
+
     d = 800
     name, ext = os.path.splitext(filename)
     img = Image.open(os.path.join(dir_in, filename))
@@ -66,18 +72,26 @@ def detect_vessels(filename, dir_in, dir_out, model):
 
 
 def main():
-    dir_in = r"Images\Shenzhen bay"
+    start = time.time()
+    dir_in = r"Images\gibraltar"
     dir_out = r"Images\Final"
 
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path=r"G:\Mi unidad\Data\Simulations\yolov5s\weights\best.pt", force_reload=True)
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path=r"Models\yolov5s\weights\best.pt", force_reload=True)
 
     filenames = os.listdir(dir_in)
     n_vessels = 0
     for filename in filenames:
         vessels_in_picture = detect_vessels(filename, dir_in, dir_out, model)
         n_vessels += vessels_in_picture
+    
+    end = time.time()
 
+    minutes = (end - start)/60
+
+    format_minutes = "{:.2f}".format(minutes)
+    
     print(f"{n_vessels} vessels have been detected")
+    print(f"The program runs in {format_minutes} minutes")
     
 if __name__ == "__main__":
     main()
