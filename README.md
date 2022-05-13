@@ -6,7 +6,17 @@ Project based on reduced model of Yolov5 architecture using Pytorch. Custom data
 - Provide more information as output: Earth Engine API also provides coordinates of the scenes. Therefore, the Earth's surface in km2 analyzed by the algorithm can be calculated. With the positions of the vessels on the scenes, the position of each vessel could be also estimated in geographic coordinates. Export info to dataFrame using Pandas.
 - Add vessel type detection: There are few datasets with vessel types classified. These can be included on the program developed on this project to not only detect vessels, but also classified them into classes (cargo, tanker, other type).
 
-## Examples
+## Objectives
+
+- [x] Program script that downloads images from Sentinel-1 through Earth Engine API
+- [x] Select object detection model
+- [x] Select and custom dataset
+- [x] Train model
+- [x] Program detection script
+- [ ] Add vessel classification
+- [ ] Estimate vessel position in geographic coordinates 
+
+## Output of the model:
 
 <p align = "center">
 <img src = "Examples/gibraltar_detected.png">
