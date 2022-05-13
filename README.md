@@ -13,11 +13,11 @@ Strait of Gibraltar scene with detected vessels. Photo taken the 28th of Februar
 2020 at 18:25h](Examples/gibraltar_detected.png)
 
 
-Shenzhen bay scene with detected vessels. Photo taken the 27th of December of 2019
-at 10:33h
+
 ![Shenzhen bay scene with detected vessels. Photo taken the 27th of December of 2019
 at 10:33h
-](Examples/shenzhen_detected.png)
+](Examples/shenzhen_detected.png "Shenzhen bay scene with detected vessels. Photo taken the 27th of December of 2019
+at 10:33h")
 
 
 Algeciras port scene with detected vessels. Photo taken the 2nd of October of 2019
