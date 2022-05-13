@@ -11,6 +11,9 @@ ee.Initialize()
 def get_images(location, start_date, end_date):
     #Program starts 
 
+    if os.path.exists("Images/") is False:
+        os.mkdir("Images/")
+
     start = time.time()
     filename = location + ".geojson"
 
