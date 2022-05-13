@@ -24,3 +24,10 @@ Algeciras port scene with detected vessels. Photo taken the 2nd of October of 20
 at 18:17h
 ![Algeciras port scene with detected vessels. Photo taken the 2nd of October of 2019
 at 18:17h](Examples/algeciras_detected.png)
+
+<p align = "center">
+<img src = "https://c4.wallpaperflare.com/wallpaper/382/758/444/turkey-dreams-of-cappadocia-avanos-nevsehir-wallpaper-preview.jpg">
+</p>
+<p align = "center">
+Fig.1 - 4K Mountains Wallpaper
+</p>
