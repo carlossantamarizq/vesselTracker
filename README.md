@@ -13,7 +13,7 @@ Project based on reduced model of Yolov5 architecture using Pytorch. Custom data
 
 ![Shenzhen bay scene with detected vessels. Photo taken the 27th of December of 2019
 at 10:33h
-](Examples/shenzen_detected.png)
+](Examples/shenzhen_detected.png)
 
 ![Algeciras port scene with detected vessels. Photo taken the 2nd of October of 2019
 at 18:17h](Examples/algeciras_detected.png)
