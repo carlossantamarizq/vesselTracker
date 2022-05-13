@@ -26,7 +26,7 @@ at 18:17h
 at 18:17h](Examples/algeciras_detected.png)
 
 <p align = "center">
-<img src = "https://c4.wallpaperflare.com/wallpaper/382/758/444/turkey-dreams-of-cappadocia-avanos-nevsehir-wallpaper-preview.jpg">
+<img src = "Examples/gibraltar_detected.png">
 </p>
 <p align = "center">
 Fig.1 - 4K Mountains Wallpaper
