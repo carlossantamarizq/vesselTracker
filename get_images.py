@@ -4,6 +4,7 @@ import geojson
 import requests
 import time
 from PIL import Image
+import argparse
 ee.Initialize()
 
 
@@ -69,10 +70,17 @@ def get_images(location, start_date, end_date):
     print(f"The program finished in {format_minutes} minutes")
 
 def main():
-    #Parameters to modify
-    location = "algeciras"
-    start_date = "2019-10-01"
-    end_date = "2019-10-31"
+        # Create the parser
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--location', type=str, required=True) #YYYY-MM-DD
+    parser.add_argument('--start_date', type=str, required=True)
+    parser.add_argument('--end_date', type=str, required=True)
+    # Parse the argument
+    args = parser.parse_args()
+
+    location = args.location
+    start_date = args.start_date
+    end_date = args.end_date
 
     get_images(location, start_date, end_date)
 
