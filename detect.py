@@ -5,6 +5,8 @@ from PIL import Image
 from itertools import product
 import shutil
 import time
+import argparse
+
 
 import sys
 print(sys.version)
@@ -72,9 +74,19 @@ def detect_vessels(filename, dir_in, dir_out, model):
 
 
 def main():
+
+    # Import the library
+
+    # Create the parser
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--dir_in', type=str, required=True)
+    parser.add_argument('--dir_out', type=str, required=True)
+    # Parse the argument
+    args = parser.parse_args()
+
     start = time.time()
-    dir_in = r"Images\gibraltar"
-    dir_out = r"Images\Final"
+    dir_in = args.dir_in
+    dir_out = args.dir_out
 
     model = torch.hub.load('ultralytics/yolov5', 'custom', path=r"Models\yolov5s\weights\best.pt", force_reload=True)
 

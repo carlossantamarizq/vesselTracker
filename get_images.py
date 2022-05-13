@@ -1,7 +1,6 @@
 import ee
 import os
 import geojson
-import IPython.display as disp
 import requests
 import time
 from PIL import Image
@@ -71,7 +70,7 @@ def get_images(location, start_date, end_date):
 
 def main():
     #Parameters to modify
-    location = "gibraltar"
+    location = "algeciras"
     start_date = "2019-10-01"
     end_date = "2019-10-31"
 
