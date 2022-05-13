@@ -7,27 +7,27 @@ Project based on reduced model of Yolov5 architecture using Pytorch. Custom data
 - Add vessel type detection: There are few datasets with vessel types classified. These can be included on the program developed on this project somehow to not only detect vessels, but also classified them into classes (cargo, tanker, other type).
 
 ## Examples
-Strait of Gibraltar scene with detected vessels. Photo taken the 28th of February of
-2020 at 18:25h:
-![Strait of Gibraltar scene with detected vessels. Photo taken the 28th of February of
-2020 at 18:25h](Examples/gibraltar_detected.png)
-
-
-
-![Shenzhen bay scene with detected vessels. Photo taken the 27th of December of 2019
-at 10:33h
-](Examples/shenzhen_detected.png "Shenzhen bay scene with detected vessels. Photo taken the 27th of December of 2019
-at 10:33h")
-
-
-Algeciras port scene with detected vessels. Photo taken the 2nd of October of 2019
-at 18:17h
-![Algeciras port scene with detected vessels. Photo taken the 2nd of October of 2019
-at 18:17h](Examples/algeciras_detected.png)
 
 <p align = "center">
 <img src = "Examples/gibraltar_detected.png">
 </p>
 <p align = "center">
-Fig.1 - 4K Mountains Wallpaper
+Fig.1 - Strait of Gibraltar scene with detected vessels. Photo taken the 28th of February of
+2020 at 18:25h
+</p>
+
+<p align = "center">
+<img src = "Examples/shenzhen_detected.png">
+</p>
+<p align = "center">
+Fig.2 - Shenzhen bay scene with detected vessels. Photo taken the 27th of December of 2019
+at 10:33h
+</p>
+
+<p align = "center">
+<img src = "Examples/algeciras_detected.png">
+</p>
+<p align = "center">
+Fig.3 - Algeciras port scene with detected vessels. Photo taken the 2nd of October of 2019
+at 18:17h
 </p>
