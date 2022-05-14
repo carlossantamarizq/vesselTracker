@@ -10,7 +10,7 @@ Project based on reduced model of Yolov5 architecture using Pytorch. Custom data
 
 - [x] Program script that downloads images from Sentinel-1 through Earth Engine API
 - [x] Select object detection model
-- [x] Select and customize dataset
+- [x] Select and customize datasetS
 - [x] Train model
 - [x] Program detection script
 - [ ] Add vessel classification

@@ -3,7 +3,6 @@ earthengine
 __pycache__
 vesselTracker-env
 Images/
-Locations/
 Bibliography/
 Dataset/
 Pytorch_tutorials/
