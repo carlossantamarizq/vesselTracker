@@ -23,9 +23,6 @@ def get_images(location, start_date, end_date):
     coords = gj['features'][0]['geometry']['coordinates']
     aoi = ee.Geometry.Polygon(coords)
 
-    start_date = "2019-10-01"
-    end_date = "2019-10-31"
-    #end_date = "2020-05-01" #
 
     ffa_db = (ee.ImageCollection('COPERNICUS/S1_GRD')
                         .filter(ee.Filter.eq('instrumentMode', 'IW'))
