@@ -19,7 +19,7 @@ Project based on reduced model of Yolov5 architecture using Pytorch. Custom data
 ## Output of the model:
 
 <p align = "center">
-<img src = "Examples/gibraltar_detected.png">
+<img src = "Examples/gibraltar.gif">
 </p>
 <p align = "center">
 Fig.1 - Strait of Gibraltar scene with detected vessels. Photo taken the 28th of February of
@@ -27,7 +27,7 @@ Fig.1 - Strait of Gibraltar scene with detected vessels. Photo taken the 28th of
 </p>
 
 <p align = "center">
-<img src = "Examples/shenzhen_detected.png">
+<img src = "Examples/shenzhen.gif">
 </p>
 <p align = "center">
 Fig.2 - Shenzhen bay scene with detected vessels. Photo taken the 27th of December of 2019
@@ -35,7 +35,7 @@ at 10:33h
 </p>
 
 <p align = "center">
-<img src = "Examples/algeciras_detected.png">
+<img src = "Examples/algeciras.gif">
 </p>
 <p align = "center">
 Fig.3 - Algeciras port scene with detected vessels. Photo taken the 2nd of October of 2019
