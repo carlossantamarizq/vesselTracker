@@ -27,7 +27,7 @@ Fig.1 - Strait of Gibraltar scene with detected vessels. Photo taken the 28th of
 </p>
 
 <p align = "center">
-<img src = "Examples/shenzhen.gif">
+<img src = "Examples/shenzhen_bay.gif">
 </p>
 <p align = "center">
 Fig.2 - Shenzhen bay scene with detected vessels. Photo taken the 27th of December of 2019
