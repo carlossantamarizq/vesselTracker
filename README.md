@@ -16,6 +16,14 @@ Project based on reduced model of Yolov5 architecture using Pytorch. Custom data
 - [ ] Add vessel classification
 - [ ] Estimate vessel position in geographic coordinates 
 
+
+## Example of input
+
+  ```sh
+  python get_images.py --location algeciras --start_date 2019-10-1 --end_date 2019-10-3
+  python detect.py --dir_in Images/algeciras --dir_out Images/algeciras_detected
+  ```
+
 ## Output of the model:
 
 <p align = "center">
